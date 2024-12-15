@@ -1,0 +1,605 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gabarito', sans-serif;
+    width: 100%;
+    padding-left:20px;
+    padding-right: 20px;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 2;
+    padding:10px;
+    border-bottom: solid #E0E0E0 1px;
+}
+.navbar__s1{
+    display:flex;
+    align-items: center;
+    margin-right:2%;
+
+}
+
+.navbar__s1 i{
+    display:none;
+}
+.navbar__searchbar {
+    display: none;
+    width: 100%;
+}
+
+.navbar__searchbar__sub {
+    width: 100%;
+    border: solid black 1px;
+    padding: 10px;
+    gap: 2px;
+    border-radius: 50px;
+    display: flex;
+}
+
+.navbar__searchbar input {
+    border: none;
+    width: 100%;
+}
+
+.navbar__s2 {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.navbar__s2 h4:hover {
+    border-radius: 50px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.navbar__s3 {
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    align-items: center;
+}
+.navbar__s4{
+    display:none;
+}
+.navbar__s3 input {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+/* "WHERE TO?" Section - stylesheet  */
+.whereto {
+    padding:10px;
+
+    text-align: center;
+    align-items: center;
+}
+
+.whereto__title {
+    font-size: 2.5rem;
+    margin-bottom: 3%;
+}
+
+.whereto__links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.whereto__links div {
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    gap: 3px;
+    flex-wrap: wrap;
+}
+
+.whereto__searchbar {
+    display: flex;
+    justify-content: space-between;
+    border: solid black 1px;
+    border-radius: 50px;
+    padding: 1%;
+    margin: 1% auto;
+    width: 80%;
+    max-width: 600px;
+    align-items: center;
+    gap: 2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.whereto__searchbar input {
+    font-size: 18px;
+    width: 100%;
+    padding: 1%;
+    border: none;
+}
+
+.whereto__searchbar input:focus {
+    outline: none;
+}
+
+.whereto button {
+    padding: 2%;
+    background-color: #84E9BD;
+    text-align: center;
+    border-radius: 50px;
+    border: solid #84E9BD 1px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+/* Cheers Image Section  - stylesheet*/
+.cheers__image {
+    position: relative;
+    padding:10px;
+
+}
+
+.cheers__image img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    border-radius: 30px;
+}
+
+.cheer__image__desc {
+    background-color: transparent;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: white;
+}
+
+.cheer__image__desc button {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+    border: none;
+}
+
+/* Restaurants Section - stylesheet */
+.restaurants {
+    margin-top: 50px;
+    align-items: center;
+    padding:10px;
+
+}
+
+.card__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+
+}
+
+.card__container img {
+    border-radius: 20px;
+    height: auto;
+    max-height: 250px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.card__container__img h1 {
+    position: absolute;
+    top: 80%;
+    justify-content: flex-start;
+    color: white;
+    margin-left: 10px;
+}
+
+/* Get inspired by our fave travel creators - stylesheet */
+.get__inspired {
+    margin-top: 50px;
+    padding:10px;
+
+}
+
+.get__inspired__image__container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;;
+}
+
+.get__inspired__image img {
+    border-radius: 20px;
+    height: 250px;
+    width: 370px;
+}
+
+.get__inspired__image {
+    text-align: center;
+}
+
+/* Ways to tour Chennai (Madras)- stylesheet */
+.waystochennai {
+    padding:10px;
+
+}
+
+.waystochennai__img__container {
+    align-items: center;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.waystochennai__img img {
+    height: 270px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.waystochennai__img h3 {
+    text-align: left;
+    width: 250px;
+
+}
+
+/* You might like these - stylesheet */
+
+.youmight {
+    padding:10px;
+
+}
+
+.youmight__img__container {
+    align-items: center;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.youmight__img img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.youmight__img h3 {
+    text-align: left;
+    width: 250px;
+
+}
+
+/* mortoexplore style section */
+.moretoexplore {
+    margin-top: 50px;
+    padding:10px;
+
+    background-color: #F2F1EC;
+}
+
+.moretoexplore__image__container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.moretoexplore__image img {
+    border-radius: 10px;
+    height: 250px;
+    width: 370px;
+}
+
+.moretoexplore__image h3 {
+    text-align: center;
+    width: 350px;
+    margin-top: 5px;
+}
+
+/* stylesheet - Dream Your Next Trip
+Weekend getaways from Chennai (Madras) */
+.dreamtrip {
+    padding:10px;
+
+    margin-top: 5%;
+}
+
+.dreamtrip__container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    gap: 3%;
+    position: relative;
+}
+
+.dreamtrip__image__container img {
+    height: 270px;
+    width: 270px;
+    border-radius: 10px;
+
+}
+
+.dreamtrip__image__container h2 {
+    position: absolute;
+    color: white;
+    top: 80%;
+    margin-left:1%;
+
+}
+
+/* <!-- section - Top destinations for your next holiday
+Here's where your fellow travellers are headed --> */
+
+.topdestination {
+    padding:10px;
+    margin-top: 5%;
+}
+
+.topdestination__container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    gap: 3%;
+    position: relative;
+
+}
+
+.topdestination__image__container img {
+    height: 270px;
+    width: 270px;
+    border-radius: 10px;
+
+}
+
+.topdestination__image__container h2 {
+    position: absolute;
+    color: white;
+    top: 80%;
+    margin-left: 1%;
+}
+
+
+/* watchwanderer */
+
+.watchwanderer{
+    padding:10px;
+    background-color: #F2ECF9;
+    display:flex;
+    justify-content:space-around;
+    text-align: center;
+    flex-wrap:wrap;
+    margin:5%;
+    height:600px;
+    flex-basis:90%;
+}
+
+.watchwanderer__image {
+    height:50%;
+    text-align: center;
+    padding:10px;
+}
+.watchwanderer__image img{
+    height:200%;
+    width:500px;
+
+}
+ .watchwanderer__desc{
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    /* background-color: aqua; */
+ } 
+
+.watchwanderer__desc button { 
+    padding:10px;
+    background-color: black;
+    color:white;
+    border-radius: 50px;
+}
+
+.traveller__image img{
+    width:100%;
+    height:30%;
+}
+/* footer section */
+.footer{
+    padding:10px;
+    margin:5%;
+    margin-bottom: 0;
+    background-color: #F2F2F2;
+}
+.footer__s1{
+    margin-bottom:1%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis:45%;
+    justify-content: space-around;
+    line-height: 20px;
+    font-size:14px;
+}
+.footer__s1 li{
+    list-style: none;
+    /* padding:2%; */
+}
+
+.footer__s1__s4 {
+    margin-left:5%;
+}
+
+.footer__s2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+
+.footer__s2__s2{
+    margin-right: 10%;
+}
+.footer__s2__s1{
+    width:70%;
+}
+
+.footer__s2__s1 i{
+    padding-right:5%;
+    padding-bottom:1%;
+}
+.footer__s2__s1 a{
+    color:black;
+    
+}
+
+.footer__s2__s1 p{
+    margin-right:3.5%;
+    font-size: 12px;
+}
+.footer__s2__links a{
+   padding:2.5%;
+}
+
+.footer__s2__links{
+   margin-left:5%;
+
+}
+.footer__s2__s1 i{
+    border:solid #34E0A1 1px;
+    border-radius: 50px;
+    padding:1.5%;
+    background-color: #34E0A1;
+}
+.footer__s2__s2__select select{
+    padding:10px;
+    border-radius:10px;
+    border :solid #E0E0E0 1px;
+    
+}
+.footer__s2__s2__select{
+    display:flex;
+    justify-content: center;
+}
+
+/* Media Queries for Responsiveness */
+
+@media screen and (max-width:700px){
+    
+    body{
+        font-size:10px;
+        padding:10px; 
+    }
+    
+    .navbar__s2,.navbar__s3{
+        display:none;
+    }
+
+    .navbar__s1 i{
+        display:block;
+    }
+    .navbar__s1 h1{
+        margin-left:100%;
+    }
+    .navbar__s4{
+        display:block;
+    }
+    .waystochennai__img{
+        flex-basis:45%;
+    }
+    .watchwanderer__image img{
+        height:250px;
+        width:200px;
+    }
+
+    .footer__s1__s1{
+        text-align: left;
+        margin:5%;
+    }
+    .footer__s2__s2 select{
+        display: flex;
+        justify-content: center;
+    }
+    .footer__s2{
+        text-align: center;
+        margin-left:20%;
+        margin-top:20%;
+    }
+    .card__container__img h1{
+        display:none;
+    }
+    .moretoexplore__image img{
+        width:90%;
+        gap:10px;
+    }
+    .whereto__searchbar button{
+        width:100px;
+    }
+    .get__inspired__image img{
+        width:90%;
+    }
+    .whereto__searchbar {
+        display:flex;
+    }
+
+}
+
+
+
+
+
+
+
+/* @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar__s2, .navbar__s3 {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .whereto__title {
+        font-size: 2rem;
+    }
+
+    .whereto__searchbar {
+        width: 90%;
+    }
+
+    .cheers__image img {
+        max-height: 300px;
+    }
+
+    .card__container img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+} */
