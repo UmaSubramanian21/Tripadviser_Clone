@@ -36,6 +36,14 @@ body {
 .navbar__s1 i{
     display:none;
 }
+.navbar__s1 img{
+    height:10%;
+    width: 10%;
+}
+.head{
+    display:flex;
+    ;
+}
 .navbar__searchbar {
     display: none;
     width: 100%;
@@ -118,6 +126,14 @@ body {
     padding: 10px;
     gap: 3px;
     flex-wrap: wrap;
+    
+}
+.whereto__links div:hover{
+    border-bottom:solid grey 1px;
+    cursor:pointer;
+}
+.searchall{
+    border-bottom:solid grey 1px;
 }
 
 .whereto__searchbar {
@@ -155,6 +171,14 @@ body {
     cursor:pointer;
 }
 
+.whereto button:hover{
+    cursor:pointer;
+    opacity:0.5;
+}
+img:hover {
+    cursor:pointer;
+    opacity:0.8;
+}
 /* Cheers Image Section  - stylesheet*/
 .cheers__image {
     position: relative;
@@ -483,7 +507,6 @@ Here's where your fellow travellers are headed --> */
     color:black;
     
 }
-
 .footer__s2__s1 p{
     margin-right:3.5%;
     font-size: 12px;
@@ -519,9 +542,12 @@ Here's where your fellow travellers are headed --> */
     
     body{
         font-size:10px;
-        padding:10px; 
+
     }
-    
+    *{
+        padding-left:0%;
+        padding-right:0%;
+    }
     .navbar__s2,.navbar__s3{
         display:none;
     }
@@ -529,8 +555,8 @@ Here's where your fellow travellers are headed --> */
     .navbar__s1 i{
         display:block;
     }
-    .navbar__s1 h1{
-        margin-left:100%;
+    .head{
+        margin-left:30%;
     }
     .navbar__s4{
         display:block;
