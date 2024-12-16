@@ -8,23 +8,25 @@
 body {
     font-family: 'Gabarito', sans-serif;
     width: 100%;
-    padding-left:50px;
+    /* padding-left:50px;
     padding-right: 50px;
-    overflow-x: hidden;
+    overflow-x: hidden; */
 }
 
 /* Navbar */
 .navbar {
+    /* width:100%; */
     display: flex;
+    padding:10px;
     justify-content: space-between;
+    border-bottom: solid #E0E0E0 1px;
+    gap:10px;
     align-items: center;
     margin-top: 10px;
     position: sticky;
     top:0;
     background-color: white;
     z-index: 2;
-    padding:10px;
-    border-bottom: solid #E0E0E0 1px;
 }
 .navbar__s1{
     display:flex;
@@ -330,20 +332,26 @@ img:hover {
 .moretoexplore {
     margin-top: 50px;
     padding:10px;
-
     background-color: #F2F1EC;
+
+    /* flex-basis: 30%; */
 }
 
 .moretoexplore__image__container {
+
+    justify-content: space-around;
+    margin:0 auto;
+    /* width: 400px; */
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-around;
+
 }
 
 .moretoexplore__image img {
     border-radius: 10px;
     height: 250px;
     width: 370px;
+
 }
 
 .moretoexplore__image h3 {
@@ -542,12 +550,9 @@ Here's where your fellow travellers are headed --> */
     
     body{
         font-size:10px;
-
     }
-    *{
-        padding-left:0%;
-        padding-right:0%;
-    }
+}
+@media screen and (max-width:600px){
     .navbar__s2,.navbar__s3{
         display:none;
     }
