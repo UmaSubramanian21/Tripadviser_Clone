@@ -14,34 +14,38 @@ body {
 /* Navbar */
 .navbar {
     display: flex;
-    padding:10px 100px;
+    padding: 10px 100px;
     justify-content: space-between;
     border-bottom: solid #E0E0E0 1px;
-    gap:10px;
+    gap: 10px;
     align-items: center;
     margin-top: 10px;
     position: sticky;
-    top:0;
+    top: 0;
     background-color: white;
     z-index: 2;
 }
-.navbar__s1{
-    display:flex;
+
+.navbar__s1 {
+    display: flex;
     align-items: center;
-    margin-right:2%;
+    margin-right: 2%;
 }
 
-.navbar__s1 i{
-    display:none;
+.navbar__s1 i {
+    display: none;
 }
-.navbar__s1 img{
-    height:10%;
+
+.navbar__s1 img {
+    height: 10%;
     width: 10%;
 }
-.head{
-    display:flex;
+
+.head {
+    display: flex;
     ;
 }
+
 .navbar__searchbar {
     display: none;
     width: 100%;
@@ -81,22 +85,24 @@ body {
     gap: 15px;
     align-items: center;
 }
-.navbar__s4{
-    display:none;
+
+.navbar__s4 {
+    display: none;
 }
+
 .navbar__s3 input {
     padding: 10px;
     background-color: black;
     color: white;
     border-radius: 50px;
     font-size: 16px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /* "WHERE TO?" Section - stylesheet  */
 .whereto {
-    padding:10px;
-    padding:10px 100px;
+    padding: 10px;
+    padding: 10px 100px;
 
     text-align: center;
     align-items: center;
@@ -112,7 +118,7 @@ body {
     align-items: center;
     flex-wrap: nowrap;
     justify-content: center;
-    overflow-x:auto;
+    overflow-x: auto;
     scrollbar-width: none;
 }
 
@@ -125,14 +131,16 @@ body {
     padding: 10px;
     gap: 3px;
     flex-wrap: wrap;
-    
+
 }
-.whereto__links div:hover{
-    border-bottom:solid grey 1px;
-    cursor:pointer;
+
+.whereto__links div:hover {
+    border-bottom: solid grey 1px;
+    cursor: pointer;
 }
-.searchall{
-    border-bottom:solid grey 1px;
+
+.searchall {
+    border-bottom: solid grey 1px;
 }
 
 .whereto__searchbar {
@@ -167,22 +175,24 @@ body {
     border-radius: 50px;
     border: solid #84E9BD 1px;
     font-weight: bold;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.whereto button:hover{
-    cursor:pointer;
-    opacity:0.5;
+.whereto button:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
+
 img:hover {
-    cursor:pointer;
-    opacity:0.8;
+    cursor: pointer;
+    opacity: 0.8;
 }
+
 /* Cheers Image Section  - stylesheet*/
 .cheers__image {
     position: relative;
-    padding:10px;
-    padding:10px 100px;
+    padding: 10px;
+    padding: 10px 100px;
 
 }
 
@@ -213,8 +223,8 @@ img:hover {
 .restaurants {
     margin-top: 50px;
     align-items: center;
-    padding:10px;
-    padding:10px 100px;
+    padding: 10px;
+    padding: 10px 100px;
 
 }
 
@@ -226,7 +236,7 @@ img:hover {
     justify-content: center;
     position: relative;
     margin-top: 10px;
-    overflow-x:auto;
+    overflow-x: auto;
     scrollbar-width: none;
 }
 
@@ -237,11 +247,13 @@ img:hover {
     width: 300px;
     max-width: 250px;
 }
-.card__image__nextbutton img{
-    height:50px;
-    width:50px;
-    cursor:pointer;
+
+.card__image__nextbutton img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
 }
+
 .card__container__img h1 {
     position: absolute;
     top: 80%;
@@ -253,15 +265,16 @@ img:hover {
 /* Get inspired by our fave travel creators - stylesheet */
 .get__inspired {
     margin-top: 50px;
-    padding:10px;
-    padding:10px 100px;
+    padding: 10px;
+    padding: 10px 100px;
 
 }
 
 .get__inspired__image__container {
     display: flex;
-    flex-wrap:wrap;
-    justify-content: space-around;;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    ;
 }
 
 .get__inspired__image img {
@@ -276,15 +289,15 @@ img:hover {
 
 /* Ways to tour Chennai (Madras)- stylesheet */
 .waystochennai {
-    padding:10px;
-    padding:10px 100px;
+    padding: 10px;
+    padding: 10px 100px;
 
 }
 
 .waystochennai__img__container {
     align-items: center;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     gap: 10px;
     margin-top: 20px;
@@ -299,21 +312,19 @@ img:hover {
 .waystochennai__img h3 {
     text-align: left;
     width: 250px;
-
 }
 
 /* You might like these - stylesheet */
 
 .youmight {
-    padding:10px;
-    padding:10px 100px;
-
+    padding: 10px;
+    padding: 10px 100px;
 }
 
 .youmight__img__container {
     align-items: center;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     gap: 10px;
     margin-top: 20px;
@@ -328,28 +339,20 @@ img:hover {
 .youmight__img h3 {
     text-align: left;
     width: 250px;
-
 }
 
 /* mortoexplore style section */
 .moretoexplore {
     margin-top: 50px;
-    padding:10px;
+    padding: 10px;
     background-color: #F2F1EC;
-    padding:10px 100px;
-
-
-    /* flex-basis: 30%; */
+    padding: 10px 100px;
 }
 
 .moretoexplore__image__container {
-
     justify-content: space-around;
-    /* margin:0 auto; */
-    /* width: 400px; */
     display: flex;
-    flex-wrap:wrap;
-
+    flex-wrap: wrap;
 }
 
 .moretoexplore__image img {
@@ -368,15 +371,14 @@ img:hover {
 /* stylesheet - Dream Your Next Trip
 Weekend getaways from Chennai (Madras) */
 .dreamtrip {
-    padding:10px;
-    padding:10px 100px;
-
+    padding: 10px;
+    padding: 10px 100px;
     margin-top: 5%;
 }
 
 .dreamtrip__container {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
     gap: 3%;
     position: relative;
@@ -393,7 +395,7 @@ Weekend getaways from Chennai (Madras) */
     position: absolute;
     color: white;
     top: 80%;
-    margin-left:1%;
+    margin-left: 1%;
 
 }
 
@@ -403,13 +405,13 @@ Here's where your fellow travellers are headed --> */
 .topdestination {
     /* padding:10px; */
     margin-top: 5%;
-    padding:10px 100px;
+    padding: 10px 100px;
 
 }
 
 .topdestination__container {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
     gap: 2%;
     position: relative;
@@ -433,190 +435,232 @@ Here's where your fellow travellers are headed --> */
 
 /* watchwanderer */
 
-.watchwanderer{
-    padding:10px;
+.watchwanderer {
+    padding: 10px;
     background-color: #F2ECF9;
-    display:flex;
-    justify-content:space-around;
+    display: flex;
+    justify-content: space-around;
     text-align: center;
-    flex-wrap:wrap;
-    margin:5%;
-    height:600px;
-    flex-basis:90%;
-    padding:10px 100px;
+    flex-wrap: wrap;
+    margin: 5%;
+    height: 600px;
+    flex-basis: 90%;
+    padding: 10px 100px;
 
 }
 
 .watchwanderer__image {
-    height:50%;
+    height: 50%;
     text-align: center;
-    padding:10px;
+    padding: 10px;
 }
-.watchwanderer__image img{
-    height:200%;
-    width:500px;
+
+.watchwanderer__image img {
+    height: 200%;
+    width: 500px;
 
 }
- .watchwanderer__desc{
+
+.watchwanderer__desc {
     text-align: center;
-    align-items:center;
+    align-items: center;
     justify-content: center;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    width:40%;
+    width: 40%;
     /* background-color: aqua; */
- } 
+}
 
-.watchwanderer__desc button { 
-    padding:10px;
+.watchwanderer__desc button {
+    padding: 10px;
     background-color: black;
-    color:white;
+    color: white;
     border-radius: 50px;
 }
 
-.traveller__image img{
-    width:100%;
-    padding:10px 100px;
-    height:30%;
+.traveller__image img {
+    width: 100%;
+    padding: 10px 100px;
+    height: 30%;
 }
+
 /* footer section */
-.footer{
-    padding:10px 100px;
-    padding:10px;
-    margin:5%;
+.footer {
+    padding: 10px 100px;
+    padding: 10px;
+    margin: 5%;
     margin-bottom: 0;
     background-color: #F2F2F2;
 }
-.footer__s1{
-    margin-bottom:1%;
-    display:flex;
+
+.footer__s1 {
+    margin-bottom: 1%;
+    display: flex;
     flex-wrap: wrap;
-    flex-basis:45%;
+    flex-basis: 45%;
     justify-content: space-around;
     line-height: 20px;
-    font-size:14px;
+    font-size: 14px;
 }
-.footer__s1 li{
+
+.footer__s1 li {
     list-style: none;
     /* padding:2%; */
 }
 
 .footer__s1__s4 {
-    margin-left:5%;
+    margin-left: 5%;
 }
 
-.footer__s2{
-    display:flex;
-    flex-wrap:wrap;
+.footer__s2 {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
 }
 
-.footer__s2__s2{
+.footer__s2__s2 {
     margin-right: 10%;
 }
-.footer__s2__s1{
-    width:70%;
+
+.footer__s2__s1 {
+    width: 70%;
 }
 
-.footer__s2__s1 i{
-    padding-right:5%;
-    padding-bottom:1%;
+.footer__s2__s1 i {
+    padding-right: 5%;
+    padding-bottom: 1%;
 }
-.footer__s2__s1 a{
-    color:black;
-    
+
+.footer__s2__s1 a {
+    color: black;
+
 }
-.footer__s2__s1 p{
-    margin-right:3.5%;
+
+.footer__s2__s1 p {
+    margin-right: 3.5%;
     font-size: 12px;
 }
-.footer__s2__links a{
-   padding:2.5%;
+
+.footer__s2__links a {
+    padding: 2.5%;
 }
 
-.footer__s2__links{
-   margin-left:5%;
+.footer__s2__links {
+    margin-left: 5%;
 
 }
-.footer__s2__s1 i{
-    border:solid #34E0A1 1px;
+
+.footer__s2__s1 i {
+    border: solid #34E0A1 1px;
     border-radius: 50px;
-    padding:1.5%;
+    padding: 1.5%;
     background-color: #34E0A1;
 }
-.footer__s2__s2__select select{
-    padding:10px;
-    border-radius:10px;
-    border :solid #E0E0E0 1px;
-    
+
+.footer__s2__s2__select select {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #E0E0E0 1px;
+
 }
-.footer__s2__s2__select{
-    display:flex;
+
+.footer__s2__s2__select {
+    display: flex;
     justify-content: center;
 }
 
 /* Media Queries for Responsiveness */
 
-@media screen and (max-width:700px){
-    
-    body{
-        font-size:10px;
+@media screen and (max-width:700px) {
+
+    body {
+        font-size: 10px;
     }
-    .navbar,.whereto,.cheers__image,.restaurants,.get__inspired,.waystochennai,.youmight,.moretoexplore,.dreamtrip,.topdestination,.watchwanderer,.traveller__image,.footer{
-        padding:10px;
+
+    .navbar,
+    .whereto,
+    .cheers__image,
+    .restaurants,
+    .get__inspired,
+    .waystochennai,
+    .youmight,
+    .moretoexplore,
+    .dreamtrip,
+    .topdestination,
+    .watchwanderer,
+    .traveller__image img,
+    .footer {
+        padding: 10px;
     }
 }
-@media screen and (max-width:600px){
-    .navbar__s2,.navbar__s3{
-        display:none;
+
+@media screen and (max-width:600px) {
+
+    .navbar__s2,
+    .navbar__s3 {
+        display: none;
     }
 
-    .navbar__s1 i{
-        display:block;
-    }
-    .head{
-        margin-left:30%;
-    }
-    .navbar__s4{
-        display:block;
-    }
-    .waystochennai__img{
-        flex-basis:45%;
-    }
-    .watchwanderer__image img{
-        height:250px;
-        width:200px;
+    .navbar__s1 i {
+        display: block;
     }
 
-    .footer__s1__s1{
+    .head {
+        margin-left: 30%;
+    }
+
+    .navbar__s4 {
+        display: block;
+    }
+
+    .waystochennai__img {
+        flex-basis: 45%;
+    }
+
+    .watchwanderer__image img {
+        height: 250px;
+        width: 200px;
+    }
+
+    .footer__s1__s1 {
         text-align: left;
-        margin:5%;
+        margin: 5%;
     }
-    .footer__s2__s2 select{
+
+    .footer__s2__s2 select {
         display: flex;
         justify-content: center;
     }
-    .footer__s2{
+
+    .footer__s2 {
         text-align: center;
-        margin-left:20%;
-        margin-top:20%;
+        margin-left: 20%;
+        margin-top: 20%;
     }
-    .card__container__img h1{
-        display:none;
+
+    .card__container__img h1,
+    .dreamtrip__image__container h2,
+    .topdestination__image__container h2 {
+        display: none;
+
     }
-    .moretoexplore__image img{
-        width:90%;
-        gap:10px;
+
+    .moretoexplore__image img {
+        width: 90%;
+        gap: 10px;
     }
-    .whereto__searchbar button{
-        width:100px;
+
+    .whereto__searchbar button {
+        width: 100px;
     }
-    .get__inspired__image img{
-        width:90%;
+
+    .get__inspired__image img {
+        width: 90%;
     }
+
     .whereto__searchbar {
-        display:flex;
+        display: flex;
     }
 
 }
